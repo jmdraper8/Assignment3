@@ -58,3 +58,6 @@ mergeData = melt(fullData, id = idLabels, measure.vars = dataLabels)
 
 # Apply mean function to dataset
 cleanData = dcast(mergeData, Subject_ID + Activity_Label ~ variable, mean)
+
+#Export the data to a file
+write.table(cleanData, file = "./tidy_data.txt")
