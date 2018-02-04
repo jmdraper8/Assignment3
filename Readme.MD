@@ -27,4 +27,5 @@ How to use this project
 ------------
 	1. Download the project, the data is included in the project
 	2. Set the working directory to the correct location, the current working directory is set to mine
-	3. Open the 
+	3. Open the **Assignment Script.R** in R Studio and run the file
+	4. The script will export a file **tidy_data.txt** with the clean data
